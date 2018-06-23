@@ -23,11 +23,8 @@ Gem::Specification.new do |spec|
 
   spec.executables << 'potion'
 
-  spec.add_runtime_dependency "ruby_motion_query", github: 'amirrajan/rmq', branch: 'master'
-  spec.add_runtime_dependency "ProMotion", github: 'amirrajan/ProMotion', branch: 'master'
   spec.add_runtime_dependency "motion_print"
   spec.add_runtime_dependency "motion-cocoapods"
-  spec.add_runtime_dependency "RedAlert", github: 'amirrajan/RedAlert', branch: 'master'
   spec.add_runtime_dependency "rake"
   spec.add_development_dependency "webstub"
 end
